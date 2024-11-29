@@ -1,0 +1,151 @@
+body {  
+  font-family: 'Arial', sans-serif;  
+  background-color: #f4f4f4;  
+  display: flex;  
+  justify-content: center;  
+  align-items: center;  
+  height: 100vh;  
+  margin: 0;  
+}  
+
+.container {  
+  display: flex;  
+  background-color:   #f4f4f4;
+  ;  
+  border-radius: 15px;  
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);  
+  overflow: hidden;  
+  width: 1000px;  
+  height:700px;
+}  
+
+.image-container {  
+  flex: 1;  
+  background-image: url('e5a99d90ee11238323ca077960141ab6.jpeg');  
+  background-size: 700px 750px; 
+  background-repeat: no-repeat; 
+ 
+  margin-left: -35px;  
+ 
+  background-position-x: left;
+  background-position-y: center;
+}  
+
+.form-container {  
+  flex: 1;  
+  padding: 20px;  
+}  
+
+h1 {  
+  margin-bottom: 20px; 
+  text-align: center; 
+}  
+
+input {  
+  width: 100%;  
+  padding: 10px;  
+  margin-bottom: 15px;  
+  border: 1px solid #ccc;  
+  border-radius: 5px;  
+}  
+.agree input{
+  width: 20px;
+  height: 20px;
+  margin-top: -30px;
+  border: 12px solid #ccc;
+   margin-top: -10px;
+   margin-left: 15px;
+
+ 
+}
+.agree{
+
+  display: flex;
+  flex-direction: row;
+ justify-content:left;
+  align-items: center;
+margin-top: 5px;
+margin-left: -20px;
+
+}
+.agree p{
+  font-size: small;
+  margin-top: -5px;
+}
+.agree a{
+  color: black;
+}
+.forgot{
+  font-size: 15px;
+  color:  rgba(4, 210, 145, 0.877);
+  text-decoration: none;
+  text-align: right;
+ margin-bottom: 10px;
+}
+button {  
+  width: 100%;  
+  padding: 10px;  
+  background-color:#32ae89;  
+  color: white;  
+  border: none;  
+  border-radius: 25px;  
+  cursor: pointer;  
+  margin-top: 20px;
+}  
+
+button:hover {  
+  background-color: #2e9475;  
+}  
+
+.social-buttons {  
+  display: flex;  
+  justify-content: space-around;  
+  margin-top: 15px;
+}  
+
+.social-buttons i {  
+  padding: 26px 0px;  
+  text-decoration: none;  
+  border: none ;  
+  border-radius: 10px; 
+  box-shadow: 2px  6px 3px rgba(0,0,0,0.1);  
+ width: 64.5px;
+ height: 54.5px;
+ background-color: #ffffff;
+  text-align: center; 
+ 
+   
+}  
+.or{
+  display: flex;
+  flex-direction:row ;
+  justify-content: space-around;
+  margin-top: 10px;
+  font-weight: 800;
+  font-size: larger;
+}
+  hr{
+    width: 150px;
+    height: 1px;
+    border: none;
+    border-top: 2px solid black;
+        
+}
+.fa-brands{
+  color:   #32ae89; 
+}
+.footer p{
+  margin-top: 23px;
+  text-align: center;
+  font: 1em sans-serif;
+}
+.link {
+  margin-top: -3px;
+  color: #32ae89;
+  text-decoration: none;
+}
+.error-message{
+  color: red;
+  font-size: 14px;
+  margin-top: 5px;
+}
